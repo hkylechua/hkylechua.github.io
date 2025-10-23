@@ -10,6 +10,7 @@ body {
     color: #e2e2e2;
     background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -180,6 +181,27 @@ footer {
     color: #666;
     border-top: 1px solid #00ffc8;
 }
+
+/* ====== Parallax Hero ====== */
+.hero {
+    position: relative;
+    background-attachment: fixed; /* makes parallax work */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ====== Scroll Animations ====== */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+    .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
 /* ====== Responsive ====== */
 @media (max-width: 768px) {
