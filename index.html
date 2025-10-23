@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Game Dev Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyle Chua | Game Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
-        <h1>Hi, I'm Kyle — Game Developer</h1>
-        <p>Welcome to my portfolio!</p>
+        <h1>Kyle Chua</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
+    <section class="hero">
+        <h2>Enter the World of Kyle Chua</h2>
+        <p>Game Developer • Designer • Dream Builder</p>
+    </section>
 
-        <!-- Project 1 -->
-        <div class="project">
-            <h3>Game Title 1</h3>
-            <p>Role: Programmer / Designer | Tools: Unity, C#</p>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate game developer and designer who loves crafting immersive experiences that blur the line between reality and imagination. From pixel art adventures to narrative-driven RPGs, I aim to build worlds players can truly lose themselves in.</p>
+    </section>
 
-            <!-- Screenshot -->
-            <img src="images/game1.png" alt="Game 1 Screenshot" width="600">
-
-            <!-- Video Demo (optional small file) -->
-            <video width="640" height="360" controls>
-                <source src="videos/demo1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-
-            <!-- Embed YouTube video (recommended for large demos) -->
-            <iframe width="640" height="360" 
-                src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                title="Game Demo" frameborder="0" allowfullscreen>
-            </iframe>
-
-            <!-- Link to playable version -->
-            <p><a href="games/mygame/index.html" target="_blank">Play Online</a></p>
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="https://placehold.co/400x250?text=RPG+Maze+Game" alt="RPG Maze Game">
+                <h3>RPG Maze Game</h3>
+                <p>A pixel dungeon crawler built with Unity — procedurally generated mazes and fast-paced combat.</p>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/400x250?text=Fitness+App" alt="Fitness Tracker App">
+                <h3>Fitness Tracker App</h3>
+                <p>A gamified web app that turns fitness goals into RPG-style quests and rewards.</p>
+            </div>
+            <div class="project">
+                <img src="https://placehold.co/400x250?text=Data+Visualizer" alt="Data Visualization App">
+                <h3>Data Visualization App</h3>
+                <p>Interactive dashboards and charts to explore and visualize data in real-time.</p>
+            </div>
         </div>
+    </section>
 
-        <!-- Add more projects as needed -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect and build something legendary.</p>
+        <a href="https://github.com/hkylechua" target="_blank">GitHub</a>
+        <a href="https://itch.io" target="_blank">itch.io</a>
+        <a href="mailto:hkchua@myyahoo.com">Email Me</a>
     </section>
 
     <footer>
-        <p>Contact me: <a href="mailto:kyle@example.com">kyle@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername">yourusername</a></p>
+        © 2025 Kyle Chua. All rights reserved.
     </footer>
 </body>
 </html>
