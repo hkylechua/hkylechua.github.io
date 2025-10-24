@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Kyle Chua</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Kyle Chua</h1>
+        <nav>
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact fade-in" style="padding-top: 120px;">
+        <h2>Contact Me</h2>
+        <p>Send me a message right here — I’ll get back to you soon!</p>
+
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br />
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br />
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br />
+            <button type="submit">Send Message</button><br />
+            <p id="form-status"></p>
+        </form>
+
+        <div class="social-links" style="margin-top: 30px;">
+            <a href="https://github.com/hkylechua" target="_blank">GitHub</a>
+            <a href="https://itch.io" target="_blank">itch.io</a>
+            <a href="index.html">Back to Home</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Kyle Chua. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
