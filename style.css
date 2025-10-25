@@ -55,7 +55,10 @@ nav a {
 /* ====== Hero ====== */
 .hero {
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1605648511971-1d0a8d2a9b83?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1605648511971-1d0a8d2a9b83?auto=format&fit=crop&w=1920&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;

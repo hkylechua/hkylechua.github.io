@@ -1,8 +1,8 @@
 // ===== Parallax Effect =====
 window.addEventListener("scroll", function () {
     const hero = document.querySelector(".hero");
-    let offset = window.pageYOffset;
-    hero.style.backgroundPositionY = offset * 0.5 + "px";
+    let offset = window.scrollY;
+    hero.style.backgroundPositionY = offset * 0.4 + "px";
 });
 
 // ===== Scroll Fade-In Animation =====
