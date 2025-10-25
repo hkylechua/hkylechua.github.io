@@ -34,9 +34,9 @@
               "Title": "contact.html",
               "DocumentMoniker": "D:\\Documents\\Personal\\GitHub\\hkylechua.github.io\\contact.html",
               "RelativeDocumentMoniker": "contact.html",
-              "ToolTip": "D:\\Documents\\Personal\\GitHub\\hkylechua.github.io\\contact.html",
-              "RelativeToolTip": "contact.html",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\Documents\\Personal\\GitHub\\hkylechua.github.io\\contact.html*",
+              "RelativeToolTip": "contact.html*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-10-24T05:41:17.857Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "style.css",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-23T07:21:21.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T07:21:21.538Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwDcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-10-23T07:20:10.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T07:20:10.079Z"
             }
           ]
         }
